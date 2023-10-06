@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input{
+
+    width: 50%;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #34495e;
+    outline: none;
+    font-size: medium;
+    padding: 20px;
+    color: #34495e;
+    margin-bottom: 16px;
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+    width: 110px;
+    outline: #34495e;
+    outline: navy;
+    padding: 10px;
+    font-size: larger;
+    margin: 20px;
+    border: none;
+    background-color: #34495e;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button:hover{
+    background-color: white;
+    color: #34495e;
+}
